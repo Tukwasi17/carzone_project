@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #new app
     'pages',
+    'cars',
+    'ckeditor',
+    'multiselectfield',
+    'django.contrib.humanize',#to be readable
 ]
 
 MIDDLEWARE = [
