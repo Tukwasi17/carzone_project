@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$$i%r$=oqd)_n02oy+#kxx$tsod!#$tppf)(7nk2$p69=_qiet'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['peaceful-castle-87200-3c8c342c03b4.herokuapp.com', 'cartukapp.co', 'www.cartukapp.co']
+ALLOWED_HOSTS = []
 
 #
 LOGIN_REDIRECT_URL = 'dashboard'
@@ -107,11 +107,9 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 } """
 #run pip insatll psycopg2
 
-
 DATABASES = {
-        'default': dj_database_url.config()
-    }
-
+    'default': dj_database_url.config(default='postgres://postgres:Tukwasi17@localhost/carzone_db')
+}
 
 
 # Password validation
