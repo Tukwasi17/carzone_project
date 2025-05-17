@@ -108,7 +108,7 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 #run pip insatll psycopg2
 
 DATABASES = {
-    'default': dj_database_url.config(default='postgres://postgres:Tukwasi17@localhost/carzone_db')
+    'default': dj_database_url.config()
 }
 
 
