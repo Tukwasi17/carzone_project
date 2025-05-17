@@ -147,7 +147,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Were collected file goes for production
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') # Were collected file goes for production
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'carzone/static'), #Add the directory containing static file
 ]
