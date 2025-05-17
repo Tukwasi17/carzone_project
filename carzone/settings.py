@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$$i%r$=oqd)_n02oy+#kxx$tsod!#$tppf)(7nk2$p69=_qiet'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -67,6 +68,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
+    #whitenoise
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'carzone.urls'
@@ -92,7 +95,7 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
+""" DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'carzone_db',
@@ -100,8 +103,13 @@ DATABASES = {
         'PASSWORD': 'Tukwasi17',
         'HOST': 'localhost',
     }
-}
+} """
 #run pip insatll psycopg2
+
+DATABASES = {
+    'default': dj_database_url.config(default='postgres://postgres:Tukwasi17@localhost/carzone_db')
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
@@ -170,3 +178,6 @@ EMAIL_HOST_USER = 'ugwuanyitukwasi@gmail.com'
 EMAIL_HOST_PASSWORD = 'lnxmnudggtedrbyd'
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'ugwuanyitukwasi@gmail.com'
+
+#whitenoise settings
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
