@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 
+{% block title %} | {{ single_car.car_title }} {% endblock title %}
 {% load humanize %}
 {% block content %}
 {% load static %}
@@ -209,13 +210,13 @@
                         <div class="modal-content">
                           <div class="contact-dealer modal-header">
                             <!-- <h5 class="modal-title" id="inquiryModalLabel">Contact Dealer</h5> -->
-                            <img src="{% static 'img/logos/logo-black-white.png' %}">
+                            <center><img src="{% static 'img/logos/logo-black-white.png' %}"></center>
                             <button type="button" class="close" data-dismiss="modal">
                               <span>&times;</span>
                             </button>
                           </div>
                           <div class="modal-body">
-                            <form action="#" method="POST">
+                            <form action="{% url 'inquiry' %}" method="POST">
                                 {% csrf_token %}
                                 
                                 {% if user.is_authenticated %}

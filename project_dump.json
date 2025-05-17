@@ -1,0 +1,404 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$B0Jfbjeef678EmWOfnLKkZ$CF76l9b0Tu1u+f7YWH35j7obV+LzlnlFx/XmLA62Cgc=",
+        "last_login": "2025-05-09T20:43:02.050Z",
+        "is_superuser": true,
+        "username": "Caragent18",
+        "first_name": "Tukwasi",
+        "last_name": "Ugwuanyi",
+        "email": "ugwuanyitukwasi@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-05-02T15:12:46Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!jJ9OFEmUhiECYUUfSJlNcTvJvRiQVW76kc4VfqKQ",
+        "last_login": "2025-05-07T00:38:28.575Z",
+        "is_superuser": false,
+        "username": "tukwasi",
+        "first_name": "Tukwasi",
+        "last_name": "Ugwuanyi",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-07T00:38:28.028Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!ulXhCOvPJ1WewcKItE2GVJkEExBrUXNAsBsQVED8",
+        "last_login": "2025-05-07T01:20:52.623Z",
+        "is_superuser": false,
+        "username": "tukwasi0",
+        "first_name": "Tukwasi",
+        "last_name": "Ugwuanyi",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-07T00:51:28.824Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3s59tzpl4fr8nhmcm0cg4xpvvsh67i62",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAEB4pL956BDDNTqRpISrsy3l2bdKHb_977L5VwXUpau8xpYnVWoA6_W0Z6SN0A37HemqZWl3nKelP0Tru-NpbnZXf_Dgr28q3HQFEGH0QsWzQDs4smuACQIxJ7YrTHyJY8EIVREOLJeWAfnDdMRr0__Q04SQ:1uAs5n:nzBAEv8eh6ei_hCTyflg4AxBdg6Mv-tcxdq5XrzanPA",
+        "expire_date": "2025-05-16T15:14:23.242Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "58yj3m42wk7pbhdjt5dnvwvg7bzqpv9w",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAEB4pL956BDDNTqRpISrsy3l2bdKHb_977L5VwXUpau8xpYnVWoA6_W0Z6SN0A37HemqZWl3nKelP0Tru-NpbnZXf_Dgr28q3HQFEGH0QsWzQDs4smuACQIxJ7YrTHyJY8EIVREOLJeWAfnDdMRr0__Q04SQ:1uDS7S:AmcZRKW8OX_oDDAl_CBW7Y78o-3dNBFvshZoKQ7q268",
+        "expire_date": "2025-05-23T18:06:46.402Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6zf16melsqk7fxf0xsm0jhvujg6is8uc",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAEB4pL956BDDNTqRpISrsy3l2bdKHb_977L5VwXUpau8xpYnVWoA6_W0Z6SN0A37HemqZWl3nKelP0Tru-NpbnZXf_Dgr28q3HQFEGH0QsWzQDs4smuACQIxJ7YrTHyJY8EIVREOLJeWAfnDdMRr0__Q04SQ:1uCSLc:9F_fZw28RDUm2z6smPHucx2h14u-nVEEaXUTMc2eBhE",
+        "expire_date": "2025-05-21T00:09:16.034Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yfpqg8pv9duhx92ph6vc82wjrvjafrom",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCmCBSX7j0DmRlAqgaS0q6Md7dNutDtf-_9twi4LiWsPc1hiuIiQJx-N0J-prqD-MB6b5JbXeaJ5K7Ig3Z5azG9rof7d1Cwl63OCnVOdgDKbI1xADYabSnyyCM45-msHQ7EnvwGKSmVskf2aDWw8-LzBenlOAY:1tAbLH:kT6owM18QPdga-PpHF9q5RB_E_fGnU8Dpn7Q3-sqamA",
+        "expire_date": "2024-11-25T20:48:59.389Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "z00zkz9e35a7l3nyvxy2u112ahdzr98o",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBCYWBcuvcMhGGoVA0kpV0Z765NutDtf-_9lwhxW0vYel7CzOIslDj9bhTTI9cd8D3WW5Op1XWZSe6KPGiX18b5eTncv4MSe_nWSWfnmdwEkyJM6EeihAjeWUZtdDSokoXB6cGRHkc2SNYayAAMPrJ4fwDg3zdm:1smxJm:DwuE2jglqw7Pczu1wcZ0kTnQFfRDcG0Vqpi_i8RBcvA",
+        "expire_date": "2024-09-21T15:25:42.973Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 7,
+    "fields": {
+        "first_name": "Tukwasi",
+        "last_name": "Ugwuanyi",
+        "designation": "Creative Director",
+        "photo": "photos/2025/05/02/IMG_20231118_091043_kKWWv6D.jpg",
+        "facebook_link": "https://web.facebook.com/",
+        "x_link": "https://x.com/",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-05-02T16:53:34.245Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 8,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Founder",
+        "photo": "photos/2025/05/02/avatar-11.jpg",
+        "facebook_link": "https://web.facebook.com/",
+        "x_link": "https://x.com/",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-05-02T17:30:03.079Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 9,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Carolyn",
+        "designation": "UI/UX",
+        "photo": "photos/2025/05/02/avatar-9.jpg",
+        "facebook_link": "https://web.facebook.com/",
+        "x_link": "https://x.com/",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-05-02T17:32:28.483Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 10,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Co-Founder",
+        "photo": "photos/2025/05/02/avatar-2.jpg",
+        "facebook_link": "https://web.facebook.com/",
+        "x_link": "https://x.com/",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-05-02T17:34:26.066Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 11,
+    "fields": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "designation": "CEO",
+        "photo": "photos/2025/05/02/avatar-12.jpg",
+        "facebook_link": "https://web.facebook.com/",
+        "x_link": "https://x.com/",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-05-02T17:36:53.932Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 12,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "Support Manager",
+        "photo": "photos/2025/05/02/avatar-10.jpg",
+        "facebook_link": "https://web.facebook.com/",
+        "x_link": "https://x.com/",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-05-02T17:39:36.070Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 13,
+    "fields": {
+        "first_name": "Frank",
+        "last_name": "Edwin",
+        "designation": "Managing Director",
+        "photo": "photos/2025/05/02/avatar-3.jpg",
+        "facebook_link": "https://web.facebook.com/",
+        "x_link": "https://x.com/",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-05-02T17:42:14.434Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 14,
+    "fields": {
+        "first_name": "Juliet",
+        "last_name": "Kim",
+        "designation": "Project Manager",
+        "photo": "photos/2025/05/02/avatar-4.jpg",
+        "facebook_link": "https://web.facebook.com/",
+        "x_link": "https://x.com/",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-05-02T17:45:31.643Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 15,
+    "fields": {
+        "first_name": "Ben",
+        "last_name": "Guyi",
+        "designation": "Web Developer",
+        "photo": "photos/2025/05/02/avatar-1.jpg",
+        "facebook_link": "https://web.facebook.com/",
+        "x_link": "https://x.com/",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-05-02T17:48:45.655Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 7,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "TX",
+        "city": "WINCHESTER",
+        "color": "white",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 40000,
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\">Top Gear</a></em>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"Motor Trend\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\">[7]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year</p>",
+        "car_photo": "photos/2025/05/03/1902536891.jpg",
+        "car_photo_1": "photos/2025/05/03/1902536917.jpg",
+        "car_photo_2": "photos/2025/05/03/1902537043.jpg",
+        "car_photo_3": "photos/2025/05/03/1902537077.jpg",
+        "car_photo_4": "photos/2025/05/03/1902537082.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Alarm System,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Sport Car",
+        "engine": "3902 cc F154 CB twin-turbo V8",
+        "transmission": "7-speed dual-clutch",
+        "interior": "Gray",
+        "miles": 10000,
+        "doors": 2,
+        "passengers": 2,
+        "vin_no": "ENU-1245-LX",
+        "milage": 5,
+        "fuel_type": "Petroleum",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2025-05-03T08:05:37Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 8,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "SC",
+        "city": "AIKEN WEST",
+        "color": "black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<h2>Ford Edge 2.0 TDCi Bi-Turbo ST-Line is a 2016 SUV model with 6 speed automatic. With a power of 154 KW you can reach 0-100km h in just 9,4 seconds and a maximum speed of 211 km/h with an urban consumption of 6,5 l/100km. The engine has a capacity of 1997 cc with 4, in line cylinders and 4 valves per cylinders. Also this model has a weight of with coil springs front suspension and a coil springs rear suspension.</h2>",
+        "car_photo": "photos/2025/05/03/1901478607.jpg",
+        "car_photo_1": "photos/2025/05/03/1901478618.jpg",
+        "car_photo_2": "photos/2025/05/03/1901478646.jpg",
+        "car_photo_3": "photos/2025/05/03/1901478672.jpg",
+        "car_photo_4": "photos/2025/05/03/1901478687.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Alarm System,Power Steering,Reversing Camera,Direct Fuel Injection,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "suv/crossover",
+        "engine": "2.0 L EcoBoost I4 (turbocharged gasoline)",
+        "transmission": "6-speed 6F50 automatic",
+        "interior": "Gray",
+        "miles": 15000,
+        "doors": 5,
+        "passengers": 5,
+        "vin_no": "ENU-1272-LX",
+        "milage": 7,
+        "fuel_type": "Petroleum",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2025-05-03T09:40:26Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 9,
+    "fields": {
+        "car_title": "Ford F-250 Super Duty",
+        "state": "NJ",
+        "city": "GLEN ROCK",
+        "color": "black",
+        "model": "Ford F-250",
+        "year": 2017,
+        "condition": "Used",
+        "price": 30000,
+        "description": "<p>The&nbsp;<strong>Ford Super Duty</strong>&nbsp;(also known as the&nbsp;<strong>Ford F-Series Super Duty</strong>) is a series of heavy-duty pickup trucks produced by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>&nbsp;since the 1999 model year. Slotted above the consumer-oriented Ford&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">F-150</a>, the Super Duty trucks are an expansion of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">Ford F-Series</a>&nbsp;range, from F-250 to the F-600. The F-250 through F-450 are offered as pickup trucks, while the F-350 through F-600 are offered as&nbsp;<a href=\"https://en.wikipedia.org/wiki/Chassis_cab\" title=\"Chassis cab\">chassis cabs</a>.</p>",
+        "car_photo": "photos/2025/05/03/1894300905.jpg",
+        "car_photo_1": "photos/2025/05/03/1894300894.jpg",
+        "car_photo_2": "photos/2025/05/03/1894300920.jpg",
+        "car_photo_3": "photos/2025/05/03/1900155012.jpg",
+        "car_photo_4": "photos/2025/05/03/1900155133.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Alarm System,ParkAssist,Power Steering,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Heavy-duty pickup truck/chassis cab",
+        "engine": "4.2 L Essex V6 engine (Brazil, F-250 only)",
+        "transmission": "5-speed ZF S5-420 manual (Brazil)",
+        "interior": "Gray",
+        "miles": 13000,
+        "doors": 2,
+        "passengers": 2,
+        "vin_no": "ENU-1220-LX",
+        "milage": 5,
+        "fuel_type": "Fuel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2025-05-03T10:21:23Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 10,
+    "fields": {
+        "car_title": "Jaguar F-PACE",
+        "state": "AZ",
+        "city": "SUN CITY",
+        "color": "blue",
+        "model": "X761",
+        "year": 2017,
+        "condition": "Used",
+        "price": 50000,
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_crossover_SUV\" title=\"Compact crossover SUV\">compact luxury crossover SUV</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Car_manufacturer\" title=\"Car manufacturer\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_marque\" title=\"Jaguar marque\">Jaguar marque</a>. It is the first Jaguar model in the SUV class. It was formally announced at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2015_North_American_International_Auto_Show\" title=\"2015 North American International Auto Show\">2015 North American International Auto Show</a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2015_International_Motor_Show_Germany\" title=\"2015 International Motor Show Germany\">2015 International Motor Show Germany</a>&nbsp;in Frankfurt.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-5\">[5]</a></p>",
+        "car_photo": "photos/2025/05/03/2018_Jaguar_E-Pace_HSE_Diesel_Automatic_2.0_Front.jpg",
+        "car_photo_1": "photos/2025/05/03/1902932503.jpg",
+        "car_photo_2": "photos/2025/05/03/1902932514.jpg",
+        "car_photo_3": "photos/2025/05/03/1902932528.jpg",
+        "car_photo_4": "photos/2025/05/03/1902932542.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Bluetooth Handset",
+        "body_style": "Compact luxury crossover SUV",
+        "engine": "3.0 L AJ126 V6",
+        "transmission": "6-speed manual",
+        "interior": "Gray",
+        "miles": 12500,
+        "doors": 5,
+        "passengers": 5,
+        "vin_no": "ENU-1230-LX",
+        "milage": 4,
+        "fuel_type": "Fuel",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2025-05-03T10:36:54Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 11,
+    "fields": {
+        "car_title": "Toyota 4Runner",
+        "state": "FL",
+        "city": "CRYSTAL RIVER",
+        "color": "Gray",
+        "model": "Toyota Hilux Surf (Japan)",
+        "year": 2018,
+        "condition": "Used",
+        "price": 37000,
+        "description": "<p>Toyota released a second generation of Hilux Surf and 4Runner in 1989 for the 1990 model year. Known as the N120/N130 series, these models continued to be based on the Hilux pickup. However, the second-generation Surf/4Runner represented a fundamental departure from the first generation model: Instead of an enhanced pickup truck with fiberglass cap, the new 4Runners featured a freshly designed, full-steel integrated body mounted on the existing frame. However, the 4Runner&#39;s appearance remained virtually identical to the Hilux from the B-pillars forward, and the powertrain was shared with the Hilux.</p>",
+        "car_photo": "photos/2025/05/03/1893633875.jpg",
+        "car_photo_1": "photos/2025/05/03/1893633879.jpg",
+        "car_photo_2": "photos/2025/05/03/1893633884.jpg",
+        "car_photo_3": "photos/2025/05/03/1896836883.jpg",
+        "car_photo_4": "photos/2025/05/03/1896836887.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Alarm System,Power Steering,Direct Fuel Injection,Bluetooth Handset",
+        "body_style": "Compact SUV",
+        "engine": "2.4 L 22R I4 (RN38)",
+        "transmission": "5-speed L52 manual",
+        "interior": "Gray",
+        "miles": 15000,
+        "doors": 4,
+        "passengers": 5,
+        "vin_no": "ENU-1210-LX",
+        "milage": 6,
+        "fuel_type": "Petroleum",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2025-05-03T10:50:26Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 12,
+    "fields": {
+        "car_title": "Toyota Corolla",
+        "state": "MD",
+        "city": "COLUMBIA",
+        "color": "white",
+        "model": "E210 model",
+        "year": 2018,
+        "condition": "Used",
+        "price": 10000,
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_crossover_SUV\" title=\"Compact crossover SUV\">compact luxury crossover SUV</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Car_manufacturer\" title=\"Car manufacturer\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_marque\" title=\"Jaguar marque\">Jaguar marque</a>. It is the first Jaguar model in the SUV class. It was formally announced at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2015_North_American_International_Auto_Show\" title=\"2015 North American International Auto Show\">2015 North American International Auto Show</a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2015_International_Motor_Show_Germany\" title=\"2015 International Motor Show Germany\">2015 International Motor Show Germany</a>&nbsp;in Frankfurt.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-5\">[5]</a></p>"
+    }
+}
+]        
