@@ -107,9 +107,20 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 } """
 #run pip insatll psycopg2
 
-DATABASES = {
-    'default': dj_database_url.config(default='postgres://postgres:Tukwasi17@localhost/carzone_db')
-}
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.config()
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'carzone_db',
+            'USER': 'postgres',
+            'PASSWORD': 'Tukwasi17',
+            'HOST': 'localhost',
+        }
+    }
 
 
 # Password validation
